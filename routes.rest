@@ -1,0 +1,75 @@
+### GET all users (LOCAL)
+
+GET https://localhost:3000/users
+
+### GET all users (RENDER)
+
+GET https://project1-bu18.onrender.com/users
+
+### GET user by Id (LOCAL)
+
+GET https://localhost:3000/users/6a072c62c289b09dd3d070eb
+
+### GET user by Id (RENDER)
+
+GET https://project1-bu18.onrender.com/users/6a072c62c289b09dd3d070eb
+
+### Create a new user (LOCAL)
+
+POST https://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+  {
+    "firstName": "Toby",
+    "lastName": "Maita",
+    "email": "toby@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "11/29"
+  }
+
+### Create a new user (RENDER)
+
+POST https://project1-bu18.onrender.com/users HTTP/1.1
+content-type: application/json
+
+  {
+    "firstName": "Toby",
+    "lastName": "Maita",
+    "email": "toby@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "11/29"
+  }
+
+### PUT user (LOCAL)
+
+PUT https://localhost:3000/users/6a072c62c289b09dd3d070eb HTTP/1.1
+content-type: application/json
+
+  {
+    "firstName": "Danny",
+    "lastName": "Miranda",
+    "email": "danny@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "06/22"
+  }
+
+### PUT user (RENDER)
+
+PUT https://project1-bu18.onrender.com/users/6a072c62c289b09dd3d070eb HTTP/1.1
+content-type: application/json
+
+  {
+    "firstName": "Danny",
+    "lastName": "Miranda",
+    "email": "danny@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "06/22"
+  }
+
+### DELETE user (LOCAL)
+
+DELETE https://localhost:3000/users/6a072c62c289b09dd3d070eb HTTP/1.1
+
+### DELETE user (RENDER)
+
+DELETE https://project1-bu18.onrender.com/users/6a072c62c289b09dd3d070eb HTTP/1.1
