@@ -20,11 +20,11 @@ POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
   {
-    "firstName": "Toby",
-    "lastName": "Maita",
-    "email": "toby@example.com",
-    "favoriteColor": "Blue",
-    "birthday": "11/29"
+    "firstName": "George",
+    "lastName": "White",
+    "email": "george@example.com",
+    "favoriteColor": "Silver",
+    "birthday": "12/08"
   }
 
 ### Create a new user (RENDER)
@@ -33,42 +33,42 @@ POST https://project1-bu18.onrender.com/users HTTP/1.1
 content-type: application/json
 
   {
-    "firstName": "Toby",
-    "lastName": "Maita",
-    "email": "toby@example.com",
-    "favoriteColor": "Blue",
-    "birthday": "11/29"
+    "firstName": "George",
+    "lastName": "White",
+    "email": "george@example.com",
+    "favoriteColor": "Silver",
+    "birthday": "12/08"
   }
 
 ### PUT user (LOCAL)
 
-PUT http://localhost:3000/users/6a072c62c289b09dd3d070eb HTTP/1.1
+PUT http://localhost:3000/users/6a0b61bef240a068f856daba HTTP/1.1
 content-type: application/json
 
   {
-    "firstName": "Danny",
-    "lastName": "Miranda",
-    "email": "danny@example.com",
-    "favoriteColor": "Blue",
-    "birthday": "06/22"
+    "firstName": "George",
+    "lastName": "White",
+    "email": "test1@example.com",
+    "favoriteColor": "Silver",
+    "birthday": "12/08"
   }
 
 ### PUT user (RENDER)
 
-PUT https://project1-bu18.onrender.com/users/6a072c62c289b09dd3d070eb HTTP/1.1
+PUT https://project1-bu18.onrender.com/users/6a0b61bef240a068f856daba HTTP/1.1
 content-type: application/json
 
   {
-    "firstName": "Danny",
-    "lastName": "Miranda",
-    "email": "danny@example.com",
-    "favoriteColor": "Blue",
-    "birthday": "06/22"
+    "firstName": "George",
+    "lastName": "White",
+    "email": "test1@example.com",
+    "favoriteColor": "Silver",
+    "birthday": "12/08"
   }
 
 ### DELETE user (LOCAL)
 
-DELETE http://localhost:3000/users/6a072c62c289b09dd3d070eb HTTP/1.1
+DELETE http://localhost:3000/users/6a0b61bef240a068f856daba HTTP/1.1
 
 ### DELETE user (RENDER)
 

@@ -7,4 +7,10 @@ router.get('/', UsersController.getAll);
 
 router.get('/:id', UsersController.getSingle);
 
+router.post('/', UsersController.createUser);
+
+router.put('/:id', UsersController.updateUser);
+
+router.delete('/:id', UsersController.deleteUser);
+
 module.exports = router;
