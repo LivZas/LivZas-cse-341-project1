@@ -55,7 +55,7 @@ content-type: application/json
 
 ### PUT user (RENDER)
 
-PUT https://project1-bu18.onrender.com/users/6a0b61bef240a068f856daba HTTP/1.1
+PUT https://project1-bu18.onrender.com/users/6a0dea71acb5a7a3a7e764c6 HTTP/1.1
 content-type: application/json
 
   {
@@ -72,4 +72,4 @@ DELETE http://localhost:3000/users/6a0ddd9d0b4cee99083bd6ba HTTP/1.1
 
 ### DELETE user (RENDER)
 
-DELETE https://project1-bu18.onrender.com/users/6a0ddd9d0b4cee99083bd6ba HTTP/1.1
+DELETE https://project1-bu18.onrender.com/users/6a0dea71acb5a7a3a7e764c6 HTTP/1.1
